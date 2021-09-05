@@ -4,7 +4,8 @@
   "description": "An easy-to-use lifestyle application to track and suggest meals and exercise.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build-dev": "webpack --mode development -w"
   },
   "repository": {
     "type": "git",
